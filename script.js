@@ -98,3 +98,16 @@ function skincare() {
 // CALL the function to use it!
 skincare();
 skincare(); // can run the function again
+
+// ANALOGY: Function are like RECIPES
+// Example of a function that needs PARAMETERS (ingredients) and RETURNS a new value (meal)
+function makeSandwich(filling, sauce, bread) {
+    let sandwich = filling + " sandwich with" + sauce + " on " + bread;
+    return sandwich; // OUTPUT
+}
+let grilledCheese = makeSandwich("cheese","butter","toast");
+console.log(grilledCheese);
+let Sohaila = makeSandwich("turkey", "ketchup", "pita");
+console.log(Sohaila);
+ let simeon = makeSandwich("jelly", "butter", "multigrain");
+ console.log(simeon);
